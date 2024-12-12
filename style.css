@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+}
+
+div.container {
+  width: 900px;
+  border-radius: 10px;
+  margin: 30px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 100px;
+  padding-top: 50px
+}
+
+header img{
+  width: 200px;
+  margin: 10px auto 10px;
+  display: block;
+}
+
+header h1{
+  color: rgb(0, 255, 0);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <100>;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.navigazione{
+  background-color: rgb(0, 255, 0);
+  margin: auto;
+  width: 80%;
+  height: 35px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.row{
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  padding-bottom: 10px;
+
+}
+
+.row input{
+  margin: 0;
+  display: inline-block;
+}
+
+.row h2{
+  margin: 0;
+  display: inline-block;
+  color: white;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 5px;
+}
+
+.row span{
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+}
+
+.row .orange{
+  border-radius: 4px;
+  background-color: rgb(255, 204, 0);
+  width: 40%;
+  height: 25px;
+}
+
+.row .green{
+  border-radius: 4px;
+  background-color: rgb(0, 255, 0);
+  width: 70%;
+  height: 25px;
+}
+
+.row .red{
+  border-radius: 4px;
+  background-color: rgb(255, 51, 0);
+  width: 20%;
+  height: 25px;
+}
